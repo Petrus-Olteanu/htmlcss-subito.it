@@ -1,0 +1,356 @@
+/*General*/
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+/*Main Container*/
+.main-container{
+    left: 160px;
+    width: 950px;
+    min-height: 500px;
+    height: auto;
+    position: relative;
+  }
+/*Central Container*/
+.container
+{
+        width: 950px; 
+        height: 900px;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        border: 1px solid red;
+
+}
+
+/*MENU*/
+li{
+    font-family: LFT Etica;
+    color: #717E8F;
+    font-size: 14px;
+    display: inline-block;
+}
+li a{
+    display:inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    text-align: right;
+}
+/*LINE*/
+.line{
+    margin: 10px;
+    position: relative;
+    left:20px;
+}
+
+/*LOGO*/
+.logo{
+    width: 300px;
+    margin-left:50px;
+}
+
+.login{
+    font-family: FT Etica;
+    color:#3C4858;
+    font-size: 16px;
+    position: relative;
+    text-align: right;
+    margin-top:-35px;
+    margin-right: 250px;
+
+} 
+
+.announcement1{
+   
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+    position: relative;
+    top:-25px;
+}
+.announcement2{
+    align-items: center;
+    background-color: #feeceb;
+    border: 1px solid;
+    border-color: #feeceb;
+    border-radius: 4px;
+    color: red;
+    display: -moz-flex;
+    display: flex;
+    height: 40px;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    margin-left: auto;
+    padding: 0 12px;
+    width: 194px;
+}
+.announcement3{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+    color:red;
+}
+.announcement4{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: initial;
+    position: relative;
+    text-align:right;
+    margin-left:780px;
+    color: red;
+    top:-30px;
+}
+.symbol{
+    color:black;
+    position: relative;
+    margin-top:-35px;
+}
+.searchbar{
+    background-color: #fff;
+    border: 1px solid black;
+    height: 100px;
+    margin-bottom: 48px;
+    padding: 20px;
+    margin-left:10px;
+    border-radius: 4px;
+    box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
+
+
+}
+
+.row{
+
+    width: 710px;
+    height: 30px;
+    color: #3c4858;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 6px;
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    text-align: center;
+    margin-left:-41px;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: relative;
+    top:-25px;
+    margin-right: 10px;
+
+}
+
+.leans{
+    background-color: #f9423a;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    height: 48px;
+    text-align: center;
+    width: 50px;
+    position: relative;
+    top:-10px;
+}
+
+h2{
+    color:#717E8F;
+    text-align:center;
+    font-family: LFT Etica;
+    font-size: 21px;
+}
+.row2{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin-top: -100px;
+    width: 900px;
+    height: 250px;
+}
+
+.button1{
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.button-motori{
+    background-color: #2650ff;
+    width:  200px;
+    height:150px;
+    margin-top:40px;
+    margin-left:10px;
+    border-radius: 10px;
+}
+.img-mot{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin-left:-170px;
+    display: inline-block;
+    position: relative;
+    top:-90px;
+}
+
+
+.SearchMotor{
+    cursor: pointer;
+    width: 20%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    position:relative;
+    top: -40px;
+    right:150px;
+    text-align:center;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,.65);
+    border-radius: 4px;
+    padding: 0;
+}
+.button2{
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    
+}
+.button-market{
+    background-color: orange;
+    width:  200px;
+    height:150px;
+    top:-160px;
+    margin-left:220px;
+    border-radius: 10px;
+    position: relative;
+}
+.img-mark{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin-left:-170px;
+    display: inline-block;
+    position: relative;
+    top:-250px;
+}
+.SearchMark{
+    cursor: pointer;
+    width: 20%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    position:relative;
+    top: -200px;
+    right:150px;
+    text-align:center;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,.65);
+    border-radius: 4px;
+    padding: 0;
+}
+.button3{
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    
+}
+.button-immob{
+    background-color: blueviolet;
+    width:  200px;
+    height:150px;
+    top:-320px;
+    margin-left:430px;
+    border-radius: 10px;
+    position: relative;
+}
+.img-immob{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin-left:-170px;
+    display: inline-block;
+    position: relative;
+    top:-410px;
+}
+.Searchimmob{
+    cursor: pointer;
+    width: 20%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    position:relative;
+    top: -360px;
+    right:150px;
+    text-align:center;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,.65);
+    border-radius: 4px;
+    padding: 0;
+}
+.button4{
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    
+}
+.button-lav{
+    background-color: #60c6a6;
+    width:  200px;
+    height:150px;
+    top:-480px;
+    margin-left:630px;
+    border-radius: 10px;
+    position: relative;
+}
+.img-lav{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin-left:-170px;
+    display: inline-block;
+    position: relative;
+    top:-570px;
+}
+.Searchlav{
+    cursor: pointer;
+    width: 20%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    position:relative;
+    top: -545px;
+    left:650px;
+    text-align:center;
+    background: transparent;
+    border: 1px solid hsla(0,0%,100%,.65);
+    border-radius: 4px;
+    padding: 0;
+}
+
+
