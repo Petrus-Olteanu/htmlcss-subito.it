@@ -18,7 +18,7 @@
 .container
 {
         width: 950px; 
-        height: 900px;
+        height: 950px;
         margin: 0 auto;
         padding: 10px;
         position: relative;
@@ -353,4 +353,103 @@ h2{
     padding: 0;
 }
 
+.trial{
+    position: relative;
+    top:220px;
+    height:300px;
+}
+.paragraph{
+    position:relative;
+    width:300px;
+    height: 200px;
+    margin:10px;
+    top:50px;
+}
+.title2{
+    position: relative;
+    top:40px;
+    text-align: left;
+}
 
+p{
+    position:relative;
+    top:50px;
+    color:#717E8F;
+}
+.p2{
+    color: #F9423A;
+}
+.img-pay{
+    position:relative;
+    top:-180px;
+    width: 270px;
+    left:300px;
+    height: 250px;
+}
+.a-pay{
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9423a;
+    color: #fff;
+    margin-top: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    position:absolute;
+    top: 130px;
+    width:250px;
+    left:20px;
+}
+.img-pay2{
+    width: 300px;
+    height: 200px;
+}
+.img-sell{
+    position:relative;
+    top:-430px;
+    width: 270px;
+    left:600px;
+    height: 250px;
+}
+.section-sell{
+    padding: 0 48px 0 0;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("./img/001_DESKTOP_inserisciannuncio.jpg");
+    background-position: 0 0;
+    border: 1px solid gainsboro;
+    width: 900px;
+    position:absolute;
+    left:10px;
+    top:300px;
+    background-repeat: no-repeat;
+    background: position 200px;
+    background-size: contain;
+}
+.title-sell{
+    position:relative;
+    left:210px;
+    top:-40px;
+    color:#3C4858;
+}
+.paragraph-sell{
+    position: relative;
+    top:-30px;
+    left:250px;
+}
+.announcement4-sell{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: initial;
+    position: relative;
+    text-align:center;
+    margin-right: 30px;
+    margin-left:200px;
+    color: red;
+    top:-30px;
+}
