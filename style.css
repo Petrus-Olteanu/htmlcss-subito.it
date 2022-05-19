@@ -130,6 +130,18 @@ a:hover{
     position: relative;
     margin-top:-35px;
 }
+.input-one{
+    background: url("./img/leans-input.svg") no-repeat scroll 2px 2px;
+    padding-left:30px;
+}
+.input-two{
+    background: url("./img/category-input.svg") no-repeat scroll 1px 1px;
+    padding-left:30px;
+}
+.input-three{
+    background: url("./img/place.svg") no-repeat scroll 8px 3px;
+    padding-left:30px;
+}
 .searchbar{
     background-color: #fff;
     border: 1px solid #fff;
@@ -143,16 +155,19 @@ a:hover{
     box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
 }
 .label1{
-    margin-left: 10px;
+    margin-left: 35px;
 }
 .label2{
-    margin-left:45px;
+    margin-left:110px;
+}
+.label3{
+    margin-left:10px;
 }
 .icon-search{
     border: 1px solid red;
 }
 input{
-    text-align: right;
+    text-align: center;
 
 }
 .row{
@@ -659,6 +674,7 @@ a{
     color: #717e8f;
     padding: 16px 20px;
     position: relative;
+    margin-top: 30px;
     top:800px;
 }
 .list footer{
@@ -699,4 +715,32 @@ li{
     position:relative;
     margin-left:450px;
     margin-top: -239px;
+}
+.third-list{
+    position:relative;
+    margin-left:450px;
+    margin-top:70px;
+}
+
+.Title-footer4{
+    position:relative;
+    margin-left:650px;
+    margin-top: -180px;
+}
+.fourth-list{
+    position:relative;
+    margin-left:640px;
+    margin-top:70px;
+}
+.logo-footer{
+    position:relative;
+    margin-top: 500px;
+    text-align: center;
+    height:150px;
+}
+.p-footer{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: -15px;
+
 }
