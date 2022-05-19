@@ -6,6 +6,7 @@
 }
 
 
+
 /*Main Container*/
 .main-container{
     left: 160px;
@@ -48,6 +49,12 @@ a:hover{
     position: relative;
     left:20px;
 }
+.line-logo{
+    position: relative;
+    top:-40px;
+    margin-left: 30px;
+
+}
 
 /*LOGO*/
 .logo{
@@ -65,6 +72,10 @@ a:hover{
     margin-right: 250px;
 
 } 
+
+.login:hover{
+    text-decoration: underline;
+}
 
 .announcement1{
    
@@ -100,7 +111,7 @@ a:hover{
     margin: 0;
     padding: 0;
     vertical-align: initial;
-    color:red;
+    fill: var(--sbt-primary-color);
 }
 .announcement4{
     border: 0;
@@ -120,17 +131,29 @@ a:hover{
 }
 .searchbar{
     background-color: #fff;
-    border: 1px solid black;
+    border: 1px solid #fff;
     height: 100px;
     margin-bottom: 48px;
+    position:relative;
+    top:20px;
     padding: 20px;
     margin-left:10px;
     border-radius: 4px;
     box-shadow: 0 10px 24px 0 rgb(0 0 0 / 10%);
-
+}
+.label1{
+    margin-left: 10px;
+}
+.label2{
+    margin-left:45px;
+}
+.icon-search{
+    border: 1px solid red;
+}
+input{
+    text-align: right;
 
 }
-
 .row{
 
     width: 710px;
@@ -143,7 +166,7 @@ a:hover{
     justify-content: space-around;
     position:relative;
     text-align: center;
-    margin-left:-41px;
+    margin-left:-70px;
 }
 
 .text{
@@ -156,8 +179,8 @@ a:hover{
     position: relative;
     top:-25px;
     margin-right: 10px;
-
 }
+
 
 .leans{
     background-color: #f9423a;
@@ -167,10 +190,11 @@ a:hover{
     display: block;
     height: 48px;
     text-align: center;
-    width: 50px;
+    width: 60px;
     position: relative;
     top:-10px;
 }
+
 
 h2{
     color:#717E8F;
@@ -400,6 +424,7 @@ p{
     top: 130px;
     width:250px;
     left:20px;
+    text-decoration: none;
 }
 .img-pay2{
     width: 300px;
@@ -431,14 +456,52 @@ p{
 }
 .title-sell{
     position:relative;
-    left:210px;
-    top:-40px;
+    left:205px;
+    top:-2spx;
     color:#3C4858;
 }
 .paragraph-sell{
     position: relative;
-    top:-30px;
+    top:5px;
     left:250px;
+}
+.announcement2-sell{
+    align-items: center;
+    background-color: #feeceb;
+    border: 1px solid;
+    border-color: #feeceb;
+    border-radius: 4px;
+    color: red;
+    display: -moz-flex;
+    display: flex;
+    height: 40px;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    margin-left: auto;
+    position:relative;
+    top:40px;
+    padding: 0 12px;
+    width: 194px;
+}
+.announcement3-sell{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: initial;
+    position: relative;
+    top:0px;
+    left:5px;
+    fill: var(--sbt-primary-color);
+}
+theme-redCorporate, :root {
+    --sbt-primary-color-d2: #a62133;
+    --sbt-primary-color-d1: #cb3035;
+    --sbt-primary-color: #f9423a;
+    --sbt-primary-color-l1: #fa7b75;
+    --sbt-primary-color-l2: #fcb3b0;
+    --sbt-primary-color-l3: #feeceb;
 }
 .announcement4-sell{
     border: 0;
@@ -450,13 +513,14 @@ p{
     margin-right: 30px;
     margin-left:200px;
     color: red;
-    top:-30px;
+    top:10px;
 }
 .hand{
     border-radius: 4px;
     background-image: url("./img/HP_BOX_earth_day_20220426.jpg");
     width: 550px;
     height:300px;
+    left:10px;
     top:-200px;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -566,7 +630,7 @@ h5{
     line-height: 24px;
     font-weight: 600;
     margin-bottom: 4px;
-    color: #2650ff;
+    color: #2650FF;
     margin-left:20px;
 }
 a{
@@ -575,13 +639,13 @@ a{
     left: 10px;
 }
 .market{
-    color:yellow;
+    color: #F2A700;
 }
 .immobili{
-    color:rebeccapurple;
+    color: #9924FF;
 }
 .lavoro{
-    color:aqua;
+    color: #07BB9C;
 }
 .footer-line{
     border-top: 1px solid #dfe3ed;
@@ -593,9 +657,17 @@ a{
 }
 .Title-footer{
     position:relative;
-    text-align: left;
+    left:10px;
     top:-10px;
 }
+ul{
+    list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
 li{
-    text-decoration: none;
+    align-items: center;
+    display: flex;
+    margin-top: 8px;
 }
