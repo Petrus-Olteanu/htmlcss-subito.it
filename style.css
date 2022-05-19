@@ -26,20 +26,20 @@
 }
 
 /*MENU*/
-li{
+.list-container{
     font-family: LFT Etica;
     color: #717E8F;
     font-size: 14px;
     display: inline-block;
 }
-li a{
+.list.container a{
     display:inline-block;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
 }
-ul{
+.unordered-container{
     text-align: right;
 }
 /*LINE*/
@@ -530,6 +530,7 @@ p{
     border-radius: 4px;
     background-color: #f7f8fb;
     text-align: center;
+    margin-top:70px;
 }
 .p-app{
     line-height: 24px;
@@ -545,17 +546,17 @@ p{
 }
 .line2{
     position: relative;
+    margin-top:50px;
     top:800px;
 }
 
 .container-model{
-    height: 900px;
+    height: 700px;
     width: 900px;
-    border:1px solid orange;
     position: relative;
     top: 800px;
 }
-h3{
+.h3-model{
     color:#3C4858;
     font-size: 20px;
     padding: 20px 20px;
@@ -572,4 +573,29 @@ a{
     color: #3C4858;
     position: relative;
     left: 10px;
+}
+.market{
+    color:yellow;
+}
+.immobili{
+    color:rebeccapurple;
+}
+.lavoro{
+    color:aqua;
+}
+.footer-line{
+    border-top: 1px solid #dfe3ed;
+    color: #717e8f;
+    padding: 16px 20px;
+    position: relative;
+    top:750px;
+
+}
+.Title-footer{
+    position:relative;
+    text-align: left;
+    top:-10px;
+}
+li{
+    text-decoration: none;
 }
