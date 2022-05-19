@@ -32,6 +32,7 @@
     color: #717E8F;
     font-size: 14px;
     display: inline-block;
+    padding-right: 20px;
 }
 .list.container a{
     display:inline-block;
@@ -196,11 +197,13 @@ input{
 }
 
 
-h2{
+.h2-button{
     color:#717E8F;
     text-align:center;
     font-family: LFT Etica;
     font-size: 21px;
+    position:relative;
+    top:50px;
 }
 .row2{
     position: absolute;
@@ -456,7 +459,7 @@ p{
 }
 .title-sell{
     position:relative;
-    left:205px;
+    left:250px;
     top:-2spx;
     color:#3C4858;
 }
@@ -538,12 +541,14 @@ theme-redCorporate, :root {
 .p3{
     color:red;
     position: absolute;
-    left: 15px;
+    left: 20px;
+    font-size: 13;
 }
 .h2-hand{
     position: relative;
     color: #3C4858;
     top:80px;
+    margin-left:20px;
 }
 .p-hand{
     position: relative;
@@ -554,18 +559,21 @@ theme-redCorporate, :root {
 .privacy{
     background-color: #f7f8fb;
     margin: 0 auto;
-    width: auto;
+    width: autos;
     padding: 24px 20px 32px;
     top:800px;
     position:relative;
     display: flex;
     justify-content: space-between;
-
 }
 .h2-privacy{
     text-align: left;
     color:#3C4858;
     font-size:21px;
+}
+.img-privacy{
+    position:relative;
+    margin-left:-25px;
 }
 .a-privacy{
     color:#3C4858;
@@ -575,8 +583,7 @@ theme-redCorporate, :root {
 .span-privacy {
     position:relative;
     right: 35px;
-    display: flex;
-    justify-content: center;
+    margin-left:30px;
 }
 
 .p-privacy{
@@ -584,7 +591,7 @@ theme-redCorporate, :root {
     top:10px;
     text-decoration: none;
     font-size: 15px;
-    left:5px;
+    position: relative;
 }
 .app{
      position:relative;
@@ -652,8 +659,10 @@ a{
     color: #717e8f;
     padding: 16px 20px;
     position: relative;
-    top:750px;
-
+    top:800px;
+}
+.list footer{
+    list-style-type: none;
 }
 .Title-footer{
     position:relative;
@@ -663,11 +672,31 @@ a{
 ul{
     list-style-type: none;
 }
+
+strong{
+    color:#717E8F;
+    font-size: 14px;
+}
 a{
+    margin-right: 10px;
    text-decoration: none;
+   
+}
+a:hover{
+    text-decoration: underline;
 }
 li{
     align-items: center;
     display: flex;
     margin-top: 8px;
+}
+.second-list{
+    position:relative;
+    margin-left:220px;
+    margin-top:-350px;
+}
+.Title-footer2{
+    position:relative;
+    margin-left:450px;
+    margin-top: -239px;
 }
