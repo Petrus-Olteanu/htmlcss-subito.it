@@ -22,7 +22,6 @@
         margin: 0 auto;
         padding: 10px;
         position: relative;
-        border: 1px solid red;
 
 }
 
@@ -452,4 +451,125 @@ p{
     margin-left:200px;
     color: red;
     top:-30px;
+}
+.hand{
+    border-radius: 4px;
+    background-image: url("./img/HP_BOX_earth_day_20220426.jpg");
+    width: 550px;
+    height:300px;
+    top:-200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    display: inline block;
+}
+.hand-paragraph{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    left:550px;
+    height: 250px;
+}
+.p3{
+    color:red;
+    position: absolute;
+    left: 15px;
+}
+.h2-hand{
+    position: relative;
+    color: #3C4858;
+    top:80px;
+}
+.p-hand{
+    position: relative;
+    color: #3C4858;
+    top:90px;
+    left:20px;
+}
+.privacy{
+    background-color: #f7f8fb;
+    margin: 0 auto;
+    width: auto;
+    padding: 24px 20px 32px;
+    top:800px;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.h2-privacy{
+    text-align: left;
+    color:#3C4858;
+    font-size:21px;
+}
+.a-privacy{
+    color:#3C4858;
+    font-size:18px;
+    text-decoration: none;
+}
+.span-privacy {
+    position:relative;
+    right: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-privacy{
+    color:red;
+    top:10px;
+    text-decoration: none;
+    font-size: 15px;
+    left:5px;
+}
+.app{
+     position:relative;
+     top:800px;
+     height: 150px;
+     padding: 24px 16px 32px;
+    border-radius: 4px;
+    background-color: #f7f8fb;
+    text-align: center;
+}
+.p-app{
+    line-height: 24px;
+    margin-top: 4px;
+    font-size: 16px;
+    color: #717e8f;
+    position: relative;
+    top:5px;
+}
+.app-img{
+    top:20px;
+    position:relative;
+}
+.line2{
+    position: relative;
+    top:800px;
+}
+
+.container-model{
+    height: 900px;
+    width: 900px;
+    border:1px solid orange;
+    position: relative;
+    top: 800px;
+}
+h3{
+    color:#3C4858;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+h5{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #2650ff;
+    margin-left:20px;
+}
+a{
+    color: #3C4858;
+    position: relative;
+    left: 10px;
 }
